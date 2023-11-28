@@ -2,3 +2,7 @@
 listaDeMusicas=['war','toxicity','jet pilot','prison song','deer dance']
 anoDeNascimento=[1992,1995,1996,1997,1998]
 print(listaDeMusicas,anoDeNascimento)
+
+#para saber a quantidade totAL de um ARRAY 
+quantidadeDeMusicas=len(listaDeMusicas)
+print(quantidadeDeMusicas)
