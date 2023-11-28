@@ -20,3 +20,7 @@ print(f'Temos {lista_produtos[4]} à venda!')
 print(f'Temos {lista_produtos[5]} à venda!')
 print(f'Temos {lista_produtos[6]} à venda!')
 print(f'Temos {lista_produtos[7]} à venda!')
+
+#uma melhoria seria usar um FOR para repetir tudo isso
+for i in range(len(lista_produtos)):
+  print(f'Temos {lista_produtos[i]}!')
