@@ -24,3 +24,8 @@ print(f'Temos {lista_produtos[7]} à venda!')
 #uma melhoria seria usar um FOR para repetir tudo isso
 for i in range(len(lista_produtos)):
   print(f'Temos {lista_produtos[i]}!')
+
+  #e ainda podemos criar uma variavel com o tamanho do array e jogar no RANGE ao em vez de usar o LEN()
+tamanho_do_array=len(lista_produtos)
+for i in range(tamanho_do_array):
+  print(f'Temos {lista_produtos[i]}!')
