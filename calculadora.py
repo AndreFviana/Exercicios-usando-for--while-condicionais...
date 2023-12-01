@@ -40,3 +40,5 @@ def calculadora():
   
 #chamando a função
 calculadora()
+
+#Teste
